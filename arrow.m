@@ -1,4 +1,8 @@
 function [h,yy,zz] = arrow(varargin)
+% Attention: This function was written by Eric Johnson and is taken from the MATLAB file exchange
+% website (http://www.mathworks.com/matlabcentral/fileexchange/278-arrow-m). It is modified according
+%  to the suggestions in the comments to remove the error when used in MATLAB 2015a and newer. 
+
 % ARROW  Draw a line with an arrowhead.
 %
 %  ARROW(Start,Stop) draws a line with an arrow from Start to Stop (points
