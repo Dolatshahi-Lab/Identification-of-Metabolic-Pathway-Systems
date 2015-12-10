@@ -2,7 +2,7 @@ function [V,nr,nre]=lcon2vert(A,b,Aeq,beq,TOL,checkbounds)
 % Attention: This function was written by Matt J and is taken from the MATLAB file exchange 
 % website (http://www.mathworks.com/matlabcentral/fileexchange/30892-analyze-n-dimensional-polyhedra-in-terms-of-vertices-or--in-equalities/content/lcon2vert.m)
 % as it is.
-
+% Please also download vert2lcon.m from MATLAB central file exchange (called in this script)
 %An extension of Michael Kleder's con2vert function, used for finding the 
 %vertices of a bounded polyhedron in R^n, given its representation as a set
 %of linear constraints. This wrapper extends the capabilities of con2vert to
